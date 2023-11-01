@@ -9,7 +9,7 @@ spec:
     namespace: student-12
   project: default
   source:
-    repoURL: https://github.com/eficode-academy/argocd-katas.git  # Update this URL if the helm chart is in a different repo
+    repoURL: https://github.com/MehAdviceGuy/Argocd-katas-test-repo  # Update this URL if the helm chart is in a different repo
     targetRevision: HEAD
     path: quotes-flask/helm/quotes-flask
     helm:
